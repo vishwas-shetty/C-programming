@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# executables
+*.out
+*.exe
+
+# temporary files
+*.o
+# documents
+*.docx
+
+# VS Code
+*.code-workspace
+
+# executables
+a.out
+*.exe
