@@ -1,15 +1,13 @@
-// Print all the odd numbers from 5 to 50?
-
 #include <stdio.h>
 
-int main()
-{
-    for (int i = 5; i <= 50; i++)
-    {
-        if (i % 2 != 0) // If the remainder is not 0, then it's an odd number. [6 % 2 = 0] & [5 % 2 = 1]
-        {
-            printf("%d \n", i);
+int main() {
+    int i;
+
+    for (i = 1; i <= 10; i++) {
+        if (i == 5) {
+            continue;  // Skip the rest of the loop when i == 5
         }
+        printf("%d ", i);
     }
 
     return 0;
